@@ -1,0 +1,180 @@
+.impostazione_titolo {
+    background-image: url("immagini/piatto-gourmet-ok\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom ;
+    height: 60vh;
+    background-size:70% ; 
+   }
+  
+  
+  
+  h1 { 
+    font-size: 3cm;
+    margin-top: +140px ;
+    margin-left: 25%;
+    width: 100%;
+    height: 25cm;
+    position:absolute;
+    color: antiquewhite;   
+  }
+  
+  
+  .indice {
+   position:relative;
+   margin-left: 40%;
+   margin-top: 2cm;
+  }
+  
+  
+  ul {
+   list-style-type: none;
+  }
+  
+  
+  ul li:before {
+   content: '';
+   display: inline-block;
+   height: 30px;
+   width: 30px;
+   background-size: 30px;
+   background-image: url("immagini/broccolo\ \(1\).png");
+   background-repeat: no-repeat;
+   margin-right: 5px;
+   margin-top: 20px;
+  }
+  
+  .modifica_testo{
+   font-weight: bold;
+   font-size: x-large;
+  }
+  
+  
+  .immagine_cibo_dietro {
+   background-image: url("immagini/cibo\ ripetuto\ \(1\).jpg");
+   background-repeat: repeat-x;
+   margin-top: 3cm;
+   height: 2cm;
+  }
+  
+  
+  .box_contenuto { 
+    max-width: 60%;
+    margin:0 auto;
+    margin-top: 3cm;
+    margin-bottom: 3cm ;
+  }
+  
+  .contenuto {
+    line-height: 0.85cm;
+    font-size: 0.5cm;
+  }
+  
+  
+  .contenitore-biomol {
+    width: 100%;
+    weight: 20cm;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1cm;
+    justify-content:space-around ;
+    background-color:white;
+  }
+  
+  
+  .titoli-secondari{
+   font-size: 20px;
+   font-weight: 900;
+  }
+  
+  
+  #item1 {
+   min-height: 25%;
+   width:23% ;
+   line-height: 0.75cm;
+  }
+  
+  
+  #item2 {
+   min-height: 25%;
+   width:23%  ;
+   line-height: 0.75cm;
+  }
+    
+  
+  #item3 {
+   min-height: 25%;
+   width:23% ;
+   line-height: 0.75cm;
+  }
+    
+  
+  #item4 {
+   min-height: 25%;
+   width:23% ;
+   line-height: 0.75cm;
+  }
+  
+  
+  .box_contenuto_special{
+   max-width: 60%;
+   margin:0 auto;
+   margin-top: 3cm;
+  }
+  
+  
+  .box_p{
+   max-width: 60%;
+   margin:0 auto;
+   font-size: large;
+  }
+  
+  
+  .contenitore-img {
+   width:100%;
+   height: 7cm;
+   margin-bottom: 2cm;
+   display: flex;
+   align-items: left;
+   justify-content: space-around; }
+    
+  
+  .box-img1 {
+   min-height: 25%;
+   width:23% ;
+  }
+  
+   
+  .box-img2 {
+   min-height: 25%;
+   width:23% ;
+   }
+   
+  
+  .box-img3 {
+   min-height: 25%;
+   width:23% ;
+  }
+   
+  
+  .box-img4 {
+   min-height: 25%;
+   width:23% ; 
+  }
+   
+  
+  .box-img5 {
+   min-height: 25%;
+   width:23% ;
+  }
+   
+  
+  .logo_testo {
+   position:fixed;
+   bottom: 0;
+   right:0 ;
+   z-index:50;
+  }
+  
+  
